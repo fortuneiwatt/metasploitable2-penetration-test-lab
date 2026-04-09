@@ -2,3 +2,10 @@
 Network scanning, exploitation, and persistence using Nmap and Metasploit
 <img width="959" height="538" alt="exploit" src="https://github.com/user-attachments/assets/ed7b0cd0-8842-4af7-acb6-addb9c1c175a" />
 <img width="973" height="266" alt="Screenshot 2026-04-01 145918" src="https://github.com/user-attachments/assets/08422b80-d030-452c-b748-ec6841789adf" />
+<img width="1919" height="1002" alt="Screenshot 2026-04-03 090408" src="https://github.com/user-attachments/assets/c3f94c90-5e9c-4fb4-a89e-91f8baa6cf05" />
+<img width="1919" height="1075" alt="metasploi" src="https://github.com/user-attachments/assets/54ce39ff-016c-48bc-a26b-f457e5e723f6" />
+<img width="1321" height="797" alt="kali s" src="https://github.com/user-attachments/assets/4109ab9a-b0c4-4c1e-b4ef-b72f297551d2" />
+<img width="1301" height="800" alt="explotation" src="https://github.com/user-attachments/assets/8b564712-a10c-407a-9297-2619ffc914e9" />
+
+
+
